@@ -1,3 +1,4 @@
+
 # Copyright (C) 2019 The TwrpBuilder Open-Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -138,8 +139,6 @@ TARGET_USES_MKE2FS := true
 TW_EXCLUDE_TWRPAPP := true
 TW_NO_SCREEN_BLANK := true
 PLATFORM_VERSION := 16.1.0
-TW_DEVICE_VERSION := Official
+TW_DEVICE_VERSION := By Master | V1.1
 TW_HAS_EDL_MODE := true
 TW_SUPPORT_INPUT_1_2_HAPTICS := true
-TW_Y_OFFSET := 90
-TW_H_OFFSET := -90
