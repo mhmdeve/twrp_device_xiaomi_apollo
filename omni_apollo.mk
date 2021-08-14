@@ -30,7 +30,7 @@ $(call inherit-product, device/xiaomi/apollo/device.mk)
 PRODUCT_DEVICE := apollo
 PRODUCT_NAME := omni_apollo
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := M2007J3SG
+PRODUCT_MODEL := Mi 10T
 PRODUCT_MANUFACTURER := Xiaomi
 
 # HACK: Set vendor patch level
@@ -39,5 +39,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 
 PRODUCT_PACKAGES += fastbootd
-#PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/recovery/root,recovery/root)
+
 
